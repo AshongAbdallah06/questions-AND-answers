@@ -1,0 +1,172 @@
+body {
+    font-family: Arial;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calc {
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+.start,
+.finish {
+    /* background-color: rgb(60, 163, 115); */
+    background-color: rgb(11, 45, 117);
+    border: none;
+    padding: 8px 15px;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+}
+
+.score-container {
+    color: white;
+    margin: 5px;
+}
+
+.score {
+    font-size: 25px;
+}
+
+.time {
+    /* font-size: xx-large; */
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.Time {
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.options,
+.options2,
+.options3,
+.options4,
+.options5,
+.options6,
+.options7,
+.options8,
+.options9,
+.options10 {
+    /* background-color: blue; */
+    border: 1px solid rgb(204, 204, 204);
+    margin-top: 10px;
+    width: 280px;
+    padding-left: 15px;
+    /* height: 30px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.options:hover,
+.options2:hover,
+.options3:hover,
+.options4:hover,
+.options5:hover,
+.options6:hover,
+.options7:hover,
+.options8:hover,
+.options9:hover,
+.options10:hover {
+    border: 1px solid rgb(204, 204, 204);
+
+    background-color: rgb(218, 218, 218);
+    color: black;
+}
+
+.options:active,
+.options2:active,
+.options3:active,
+.options4:active,
+.options5:active,
+.options6:active,
+.options7:active,
+.options8:active,
+.options9:active,
+.options10:active {
+    background-color: rgb(192, 192, 192);
+}
+
+.question-no {
+    font-weight: bold;
+    font-size: x-large;
+    width: 550px;
+    text-align: center;
+}
+
+.page-no {
+    margin-top: 35px;
+    font-size: 18px;
+}
+
+.answer {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.back,
+.forward {
+    height: 25px;
+    vertical-align: middle;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.submit-container {
+    margin-top: 15px;
+}
+
+.submit,
+.submit2,
+.submit3,
+.submit4,
+.submit5,
+.submit6,
+.submit7,
+.submit8,
+.submit9,
+.submit10,
+.submit11,
+.submit12,
+.submit13,
+.submit14,
+.submit15,
+.submit16,
+.submit17,
+.submit18,
+.submit19,
+.submit20 {
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    background-color: orange;
+    vertical-align: middle;
+
+}
+
+.Clicked {
+    border: 1px solid rgb(204, 204, 204);
+    background-color: rgb(218, 218, 218);
+    color: black;
+}
